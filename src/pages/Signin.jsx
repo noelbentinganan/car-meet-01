@@ -70,9 +70,12 @@ const Signin = () => {
 
           <p className="text-xs">
             Don't have an account?{" "}
-            <span className="text-info font-black font-brandS cursor-pointer">
+            <Link
+              to="/sign-up"
+              className="text-info font-black font-brandS cursor-pointer"
+            >
               Sign Up
-            </span>
+            </Link>
           </p>
         </form>
 
